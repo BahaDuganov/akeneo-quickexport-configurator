@@ -1,5 +1,5 @@
 {
-  "name": "navneetbhardwaj/akeneo-quickexport-configurator",
+  "name": "BahaDuganov/akeneo-quickexport-configurator",
   "type": "symfony-bundle",
   "description": "quick export configurator for Akeneo 5",
   "version": "1.0.0",
