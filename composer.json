@@ -23,7 +23,7 @@
       "Webkul\\QuickExportConfiguratorBundle\\": "src/"
     }
   },
-  "scripts": {    
+  "scripts": {
     "phpunit": [
       "vendor/bin/phpunit --colors=always"
     ],
@@ -34,5 +34,6 @@
     "cs:fix": [
       "vendor/bin/php-cs-fixer fix"
     ]
-  }
+  },
+  "minimum-stability": "stable"
 }
