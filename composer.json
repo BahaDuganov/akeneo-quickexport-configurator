@@ -1,5 +1,5 @@
 {
-  "name": "BahaDuganov/akeneo-quickexport-configurator",
+  "name": "navneetbhardwaj/akeneo-quickexport-configurator",
   "type": "symfony-bundle",
   "description": "quick export configurator for Akeneo 5",
   "version": "1.0.0",
@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "akeneo/pim-community-dev": "dev-master@dev"
+    "akeneo/pim-community-dev": "^5.0.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^9",
@@ -23,7 +23,7 @@
       "Webkul\\QuickExportConfiguratorBundle\\": "src/"
     }
   },
-  "scripts": {
+  "scripts": {    
     "phpunit": [
       "vendor/bin/phpunit --colors=always"
     ],
@@ -34,6 +34,5 @@
     "cs:fix": [
       "vendor/bin/php-cs-fixer fix"
     ]
-  },
-  "minimum-stability": "stable"
+  }
 }
